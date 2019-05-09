@@ -1,1 +1,1 @@
-# wechat_canvas_poster
+# -wepy_canvas_poster

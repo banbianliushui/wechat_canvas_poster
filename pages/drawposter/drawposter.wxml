@@ -1,0 +1,23 @@
+<!--推广中心-->
+<view class="content" >
+    <view class="poster" >
+        <view catchtouchmove="return true;"  bind:tap="cancelImage"  class="img-outer {{isHiddenImg?'hidden':''}}" style="padding-top:{{imgOuterTop}}px;">
+            <view>
+                <image src="{{shareImage}}" bind:longpress='previewImage' class="share-image {{isHiddenImg?'hidden':''}}"></image>
+            </view>
+            <view>
+                <image class="tip-img" src="https://asset.imuge.net/FobEBNJxYOmj7XnXfNBvSVQqNa1B"></image>
+            </view>
+        </view>
+        <canvasdrawer painting="{{painting}}" class="canvasdrawer" bind:getImage="eventGetImage"></canvasdrawer>
+    </view>
+
+<button
+  type="default"
+  bindtap="onShare"
+  hover-class="other-button-hover"
+>
+  生成
+</button>
+
+</view>

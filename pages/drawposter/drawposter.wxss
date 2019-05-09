@@ -1,0 +1,53 @@
+.poster {
+
+    
+
+}
+
+.poster .share-image {
+    width: 574rpx;
+    height: 1040rpx; 
+    margin: 0 auto;
+    display:block;
+
+    /* border: 1px solid black; */
+}
+
+.poster .hidden .share-image {
+    display: none;
+}
+
+/* .poster .board {
+    overscroll-behavior: contain;
+    position: fixed;
+    top: -2000rpx;
+} */
+
+.poster .img-outer.hidden {
+    display: none;
+}
+
+.poster .img-outer {
+    position:fixed;
+    z-index:100;
+    bottom:0;
+    top:0;
+    left:0;
+    right:0;
+    margin: auto;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.8);
+    /* overscroll-behavior: contain; */
+}
+
+.poster .tip-img {
+    /* position: absolute;
+    top: 460px; */
+    
+    width: 454rpx;
+    height: 72rpx;
+    margin:0 auto;
+    margin-top:20rpx;
+
+    display:block;
+}
